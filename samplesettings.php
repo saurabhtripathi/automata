@@ -11,7 +11,7 @@
  
 			break;
   }
-
+ if (isset($_ENV['siteenv'])) {
   switch ($_ENV['siteenv']) {
     case 'prod':
       $conf['some_conf'] = 'some value';
