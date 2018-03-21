@@ -17,7 +17,7 @@ $somevar = '';
  if (isset($_ENV['someconf`'])) {
 
   /**
-	*   MemCache Drupal settings for all Acquia environments
+	*    some settings
 	*/
 
 	if (isset($conf['somevar'])) {
